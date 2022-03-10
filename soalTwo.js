@@ -1,6 +1,6 @@
 function checkTypeNumber(giveNumber){
     /*tulis kode logic disini
-    1. Buat 2 var untuk menyimpan string ganjil dan genap
+    1. buat 2 var untuk menyimpan string ganjil dan genap
     2. buat pengondisian untuk mengecek apakah parameter 'giveNumber'merupakan bilangan bulat
     3. buat pengondiian bersarang di pengondisian sebelumnya untuk mengecek bilangan tsb ganjil/genap menggunakan '%' atau sisa bagi hasil
     4. apabila % 2 == 0 maka return genap, maka selain itu return ganjil.

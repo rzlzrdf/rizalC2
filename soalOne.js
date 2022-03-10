@@ -1,5 +1,9 @@
-function changeWord (selectedText, changedText, text){
-    //tulis kode logic kamu didalam blok ini ya
+function changeWord(selectedText, changedText, text) {
+    /*tulis kode logic kamu didalam blok ini ya
+    Kembalikan nilai parameter text dengan method replace yang berparameter selectedText dan changgedText
+    */
+   return text.replace(selectedText, changedText);
+        
 }
 
 const kalimat1 = 'Andini sangat mencintai kamu selamanya';

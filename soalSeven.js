@@ -1,27 +1,28 @@
 const dataPenjualanPakAldi = [
-    {
-        namaProduct : 'Sepatu Futsal Nika Vapor Academy 8',
-        hargaSatuan : 768998,
-        kategori    : 'sepatu sport',
-        totalTerjual: 90,
-    },
-    {
-        namaProduct : 'Sepatu Warior traitan Blac Brown High - Ori',
-        hargaSatuan : 9600076,
-        kategori    : 'Sepatu Sneaker',
-        totalTerjual: 37,
-    },
-    {
-        namaProduct : 'Sepatu Warior Rainbow Tosca Corduroy - [BNIB] ORIGINAL',
-        hargaSatuan : 120000,
-        kategori    : 'Sepatu Sneaker',
-        totalTerjual: 90,
-    },
-
+  {
+    namaProduct : 'Sepatu Futsal Nike Vapor Academy 8',
+    hargaSatuan: 760000,
+    kategori : "Sepatu Sport",
+    totalTerjual : 90,
+  },
+  {
+    namaProduct : 'Sepatu Warrior Tristan Black Brown High',
+    hargaSatuan: 960000,
+    kategori : "Sepatu Sneaker",
+    totalTerjual : 37,
+  },
+  {
+    namaProduct : 'Sepatu Warrior Tristan Maroon High ',
+    kategori : "Sepatu Sneaker",
+    hargaSatuan: 360000,
+    totalTerjual : 90,
+  },
+  {
+    namaProduct : 'Sepatu Warrior Rainbow Tosca Corduroy',
+    hargaSatuan: 120000,
+    kategori : "Sepatu Sneaker",
+    totalTerjual : 90,
+  }
 ]
 
-function hitungTotalPenjualan(dataPenjualan){
-    //tulis disnisi
-}
-
-console.log(hitungTotalPenjualan(dataPenjualanPakAldi));
+//buat function untuk membantu pak aldi menghitung total seluruh sepatu
