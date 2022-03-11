@@ -24,12 +24,20 @@ const dataPenjualanPakAldi = [
     totalTerjual : 90,
   }
 ]
-
+let sum = 0;
 //buat function untuk membantu pak aldi menghitung total seluruh sepatu
 function hitungTotalPenjualan(dataPenjualan){
-
-    return dataPenjualan.reduce((a,b) => a+b,0);
+  
+    for (let i = 0; i < dataPenjualan.length; i++) {
+      return sum += dataPenjualan[i].totalTerjual;
+      
+    }
+    return sum
 }
 
 
 console.log(hitungTotalPenjualan(dataPenjualanPakAldi));
+for (let i = 0 ; i < dataPenjualanPakAldi.length; i++){
+  sum += dataPenjualanPakAldi[i].totalTerjual; 
+}
+console.log(sum);

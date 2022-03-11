@@ -40,7 +40,17 @@ const dataPenjualanNovel = [
 function getInfoPenjualan(dataPenjualan) {
   //
 
-  return dataPenjualan;
+  const result = dataPenjualan.map(item =>({
+    idProduct : item.idProduct,
+    namaProduk : item.namaProduk,
+    penulis : item.penulis,
+    hargaBeli : 'Rp. ' + item.hargaBeli,
+    hargaJual : 'Rp. ' + item.hargaJual,
+    hargaJual : item.totalTerjual,
+    sisaStok : item.sisaStok
+  }));
+
+  return result;
 }
 
 console.log(getInfoPenjualan(dataPenjualanNovel));
