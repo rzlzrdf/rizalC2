@@ -1,9 +1,17 @@
 function getAngkaTerbesarKedua(num) {
-    //tulis disini
-    const arrNum = num.sort(function(a, b){
-        return b-a;
-    });
-    return arrNum[1];
+    //tulis disini 
+    /*
+    buat var untuk menyimpan parameter num yang diberikan method sort untuk mengurutkan isi array dari besar ke kecil
+    gunakan perulangan untuk mengeceka apakah ada angka yg sama besar dengan angka terbesar di index selanjutnya
+    jika arr[0] idak sama dengan arr[i] maka return arr[i]
+    */
+    const arrNum = num.sort((a, b)=>{return b-a});
+        for (let i = 0; i < arrNum.length; i++) {
+          if (arrNum[0]!=arrNum[i]) {
+              return arrNum[i];
+            } 
+        }
+    
 }
 
 //EXPECTED RESULT

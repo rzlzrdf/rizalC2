@@ -36,3 +36,11 @@ const dataPenjualanNovel = [
     sisaStok: 56,
   },
 ];
+
+function getInfoPenjualan(dataPenjualan) {
+  //
+
+  return dataPenjualan;
+}
+
+console.log(getInfoPenjualan(dataPenjualanNovel));

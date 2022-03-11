@@ -1,7 +1,12 @@
 function isValidPassword (password){
-    const upper = [A-Z];
-    const lower = [a-z];
-    
+    /*
+    1. buat variabel yang menyimpan ketentuan password alam regex
+    2. return variabel dengan method yang berisi parameter password
+    */ 
+
+    var reqPass = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})");
+    return reqPass.test(password);
+   
 }
 
 //EXPECTED RESULTS

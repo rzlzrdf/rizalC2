@@ -26,3 +26,10 @@ const dataPenjualanPakAldi = [
 ]
 
 //buat function untuk membantu pak aldi menghitung total seluruh sepatu
+function hitungTotalPenjualan(dataPenjualan){
+
+    return dataPenjualan.reduce((a,b) => a+b,0);
+}
+
+
+console.log(hitungTotalPenjualan(dataPenjualanPakAldi));

@@ -1,6 +1,11 @@
 function getSplitName(personName){
     /*tulis kode disini
-    GUNAKAN String Split ya zall
+
+    dekalrasikan array baru dengan isi parameter function dengan method .split() ber itarotr ' '(spasi)
+    buat 4 pengondisian apbila panjang array tiga maka isi fn, mn, ln tanpa null
+    sedangkan apabila panjang array 2 maka isi fn dan ln
+    dan apabila satu isi fn saja
+    apabila tidak ada yg sesuai maka return erorr 
     */
     const arrNama = personName.split(' ');
     if (arrNama.length == 3) {

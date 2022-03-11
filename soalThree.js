@@ -1,7 +1,20 @@
 function checkEmail(email){
 //Tulis kode logic disini
+/*
+buat pengondisian yang berparameter ketentuan emaul dalam bentuk regex yang bermethod .test()
+jika true balikkan valid, jika false gunakan invalid
+*/
+
 //HINT => pake REGEX dan googling
 
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
+        return 'valid';
+    }
+    else{
+        return 'invalid';
+    }
+    
+    
 }
 
 //EXCPECTED RESULT
