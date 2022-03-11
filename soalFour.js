@@ -1,5 +1,7 @@
-function isValidPassword (email){
-    // tulis kode logic disini
+function isValidPassword (password){
+    const upper = [A-Z];
+    const lower = [a-z];
+    
 }
 
 //EXPECTED RESULTS

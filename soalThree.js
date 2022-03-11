@@ -1,4 +1,4 @@
-function checkEmail(email ){
+function checkEmail(email){
 //Tulis kode logic disini
 //HINT => pake REGEX dan googling
 
