@@ -46,7 +46,7 @@ function getInfoPenjualan(dataPenjualan) {
     penulis : item.penulis,
     hargaBeli : 'Rp. ' + item.hargaBeli,
     hargaJual : 'Rp. ' + item.hargaJual,
-    hargaJual : item.totalTerjual,
+    totalTerjual : item.totalTerjual,
     sisaStok : item.sisaStok
   }));
 
